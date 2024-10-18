@@ -6,7 +6,7 @@ const Auth = () => {
     console.log(data);
     const handleCheck=(e)=>{
         console.log(e.target.checked,data.setIsAuthenticated);
-        e.target.checked?data.setIsAuthenticated(true):data.setIsAuthenticated(false)
+        data.setIsAuthenticated(e.target.checked)
     }
     
   return (
