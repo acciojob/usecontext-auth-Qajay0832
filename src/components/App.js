@@ -14,7 +14,7 @@ const App = () => {
         <h1>
           Click on the checkbox to get authenticated
         </h1>
-        <p id="authText">{isAuthenticated?'You are now authenticated,you can proceed':'you are not authenticated'}</p>
+        <p className="authText">{isAuthenticated?'You are now authenticated,you can proceed':'you are not authenticated'}</p>
         <Auth/>
     </div>
     </AuthContext.Provider>
